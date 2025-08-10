@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://bllgug0txmasu"]
+[gd_scene load_steps=2 format=3 uid="uid://bllgug0txmasu"]
+
+[ext_resource type="PackedScene" uid="uid://bh5u1fuynapr0" path="res://assets/models/IceHex.blend" id="1_ig7tw"]
 
 [node name="Node" type="Node"]
+
+[node name="IceHex" parent="." instance=ExtResource("1_ig7tw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.49912, 0, -1.74596)
